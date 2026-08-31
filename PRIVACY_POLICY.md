@@ -1,61 +1,51 @@
-# Datenschutzerklärung für CodeView X
+# Privacy Policy for CodeView X
 
-## 1. Allgemeines
+## 1. General
 
-Diese Datenschutzerklärung informiert dich über die Verarbeitung personenbezogener Daten bei der Nutzung der mobilen Anwendung **CodeView X** (im Folgenden: „App“).
+This privacy policy informs you about the processing of personal data when using the mobile application **CodeView X** (hereinafter: "App").
 
-**Entwickler:** [Dein Name / dein Unternehmen]  
-**Kontakt:** [deine@email.de]
 
-## 2. Keine Erhebung personenbezogener Daten
+## 2. No Collection of Personal Data
 
-**CodeView X erhebt, speichert oder überträgt keine personenbezogenen Daten.**
+**CodeView X does not collect, store, or transmit any personal data.**
 
-Die App ist ein lokaler Datei-Editor und -Betrachter. Alle von dir geöffneten, erstellten oder bearbeiteten Dateien verbleiben ausschließlich auf deinem Gerät. Es werden keine Daten an Server übertragen oder an Dritte weitergegeben.
+The app is a local file editor and viewer. All files you open, create, or edit remain exclusively on your device. No data is transferred to servers or shared with third parties.
 
-## 3. Dateizugriff
+## 3. File Access
 
-Die App greift nur auf Dateien zu, die du explizit auswählst oder in von dir gewählten Ordnern erstellst.
+The app only accesses files that you explicitly select or create in folders you choose.
 
-- **Android**  
-  Es werden die Berechtigungen `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE` und `MANAGE_EXTERNAL_STORAGE` benötigt, um Dateien zu lesen, zu speichern und zu verwalten.
+- **Android**
+  The permissions `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`, and `MANAGE_EXTERNAL_STORAGE` are required to read, save, and manage files.
 
-- **iOS**  
-  Es wird ggf. Zugriff auf die Dokumentenauswahl (iCloud Drive, lokal) angefordert, um Dateien zu importieren und zu speichern.
+- **iOS**
+  Access to the document picker (iCloud Drive, local) may be requested to import and save files.
 
-**Wichtig:** Die App speichert keine Dateiinhalte auf externen Servern. Alle Operationen finden ausschließlich lokal statt.
+**Important:** The app does not store file contents on external servers. All operations take place exclusively locally.
 
-## 4. Lokale Einstellungen
+## 4. Local Settings
 
-Die App verwendet `shared_preferences`, um deine Einstellungen (z. B. Theme, Schriftgröße, zuletzt geöffnete Dateien) lokal auf dem Gerät zu speichern. Diese Daten werden nicht ausgelesen oder übertragen.
+The app uses `shared_preferences` to save your settings (e.g., theme, font size, recently opened files) locally on your device. This data is not read or transmitted.
 
-## 5. Schriftarten
+## 5. Fonts
 
-Wenn du benutzerdefinierte Schriftarten auswählst, können diese über **Google Fonts** aus dem Internet geladen werden. In diesem Fall gelten die Datenschutzbestimmungen von Google. Die App selbst speichert keine Daten über heruntergeladene Schriftarten.
+If you select custom fonts, they may be loaded from the internet via **Google Fonts**. In this case, Google's privacy policy applies. The app itself does not store any data about downloaded fonts.
 
-## 6. Dokumentenformate
+## 6. Document Formats
 
-Zur Anzeige von PDF-, Excel- und Word-Dateien werden die Bibliotheken **Syncfusion Flutter PDF** und **Syncfusion Flutter XLSIO** verwendet. Diese verarbeiten die Dateien ausschließlich lokal auf deinem Gerät. Es findet keine Übertragung von Dateiinhalten an Syncfusion-Server statt.
+To display PDF, Excel, and Word files, the libraries **Syncfusion Flutter PDF** and **Syncfusion Flutter XLSIO** are used. These process the files exclusively on your device. No file contents are transmitted to Syncfusion servers.
 
-## 7. Keine Analyse, Werbung oder Tracking
+## 7. No Analytics, Advertising, or Tracking
 
-- Es werden keine Analysedienste, Werbenetzwerke oder Tracking-Tools verwendet.
-- Es gibt keine automatisierten Systeme zur Erfassung von Nutzungsverhalten.
-- Es werden keine Cookies oder ähnliche Technologien eingesetzt.
+- No analytics services, advertising networks, or tracking tools are used.
+- There are no automated systems for collecting usage behavior.
+- No cookies or similar technologies are used.
 
-## 8. Sicherheit
+## 8. Security
 
-Da alle Dateien und Einstellungen ausschließlich lokal gespeichert werden, liegt die Sicherheit deiner Daten in deiner eigenen Verantwortung (z. B. durch Gerätesperre, Verschlüsselung).
+Since all files and settings are stored exclusively locally, the security of your data is your own responsibility (e.g., through device lock, encryption).
 
-## 9. Änderungen dieser Datenschutzerklärung
+## 9. Changes to This Privacy Policy
 
-Diese Datenschutzerklärung kann an Änderungen der App oder rechtliche Anforderungen angepasst werden. Die aktuelle Version ist stets im Repository verfügbar.
+This privacy policy may be updated to reflect changes to the app or legal requirements. The current version is always available in the repository.
 
-## 10. Kontakt
-
-Bei Fragen zu dieser Datenschutzerklärung kannst du dich unter folgender Adresse an uns wenden:
-
-[Dein Name]  
-[Deine Straße Hausnummer]  
-[PLZ Ort]  
-[deine@email.de]

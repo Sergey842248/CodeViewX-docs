@@ -1,60 +1,29 @@
 # CodeView X
 
-Ein vielseitiger **Code-Editor** und **Dokumentenbetrachter** für Android und iOS.
+A versatile **code editor** and **document viewer** for Android and iOS.
 
 ## Features
 
-- 📁 **Dateiverwaltung** – Durchsuche, erstelle, bearbeite und lösche Dateien und Ordner
-- 💻 **Syntax-Highlighting** – Unterstützt über 40 Programmiersprachen (Python, JS, TS, Java, C/C++, Rust, Go, Swift, Kotlin, PHP, Dart, HTML, CSS, SQL, Markdown u. v. m.)
-- 📄 **Dokumentenbetrachter** – PDF, Word (DOCX), Excel (XLSX), PowerPoint (PPTX)
-- 🎨 **Anpassbares Theme** – Helles / dunkles Theme, frei wählbare Schriftart und -größe
-- ✏️ **Inline-Editor** – Text-, Code- und Log-Dateien direkt bearbeiten
-- 🚀 **Schnelle Navigation** – Verzeichnisse durchsuchen und zwischen Dateien wechseln
+- 📁 **File Management** – Browse, create, edit, and delete files and folders
+- 💻 **Syntax Highlighting** – Supports 40+ programming languages (Python, JS, TS, Java, C/C++, Rust, Go, Swift, Kotlin, PHP, Dart, HTML, CSS, SQL, Markdown and many more)
+- 📄 **Document Viewer** – PDF, Word (DOCX), Excel (XLSX), PowerPoint (PPTX)
+- 🎨 **Customizable Theme** – Light / dark theme, freely selectable font and size
+- ✏️ **Inline Editor** – Directly edit text, code, and log files
+- 🚀 **Fast Navigation** – Browse directories and switch between files
 
-## Erste Schritte
+## Permissions
 
-### Voraussetzungen
+The app requires the following permissions to access your files:
 
-- Flutter SDK (>= 3.11.0)
-- Dart SDK (>= 3.11.0)
+- **Android**
+  - `READ_EXTERNAL_STORAGE` – Read files
+  - `WRITE_EXTERNAL_STORAGE` – Save and edit files
+  - `MANAGE_EXTERNAL_STORAGE` – Comprehensive file management (Android 11+)
 
-### Installation
+- **iOS**
+  - Access to the document picker / iCloud Drive to open and save files
 
-```bash
-git clone https://github.com/dein-benutzer/CodeView.git
-cd CodeView
-flutter pub get
-flutter run
-```
+## Privacy
 
-### Build
+For the complete privacy policy, see [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
 
-```bash
-flutter build apk        # Android
-flutter build ios        # iOS
-flutter build macos      # macOS (falls konfiguriert)
-```
-
-## Berechtigungen
-
-Die App benötigt folgende Berechtigungen, um auf deine Dateien zuzugreifen:
-
-- **Android**  
-  - `READ_EXTERNAL_STORAGE` – Dateien lesen  
-  - `WRITE_EXTERNAL_STORAGE` – Dateien speichern und bearbeiten  
-  - `MANAGE_EXTERNAL_STORAGE` – Umfassende Dateiverwaltung (Android 11+)
-
-- **iOS**  
-  - Zugriff auf die Dokumentenauswahl / iCloud Drive, um Dateien zu öffnen und zu speichern
-
-## Datenschutz
-
-Die vollständige Datenschutzerklärung findest du in [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
-
-## Mitwirken
-
-Pull Requests sind willkommen. Für größere Änderungen bitte zuerst ein Issue öffnen.
-
-## Lizenz
-
-[Füge hier deine Lizenz ein]
